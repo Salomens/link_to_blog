@@ -1,0 +1,9 @@
+git add .
+git commit -m 'initial blog'
+
+git remote add origin git@github.com:Salomens/hugoBlog.git
+git push -u origin master
+
+新建博客文章
+hugo new posts/hello-hugo-start/index.md
+
